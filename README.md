@@ -1,7 +1,7 @@
-FrontInVale 2016
+FrontInVale 2017
+May the force be with the front!
 
-
-### Set up & Install dependencies
+### Set up & install dependencies
 
 ```
 $ git clone git@github.com:frontinvale/frontinvale.github.io.git
@@ -15,12 +15,11 @@ $ gem install jekyll
 $ jekyll serve
 ```
 
-### Using a browser, go to:
+### So, go to:
 
 ```
 http://localhost:4000
 ```
 
 ### Credits
-This project was created by [CSS4HTML](http://www.css4html.com.br)
-This project was created by [Designa](http://www.designa.com.br)
+This project was created by [CSS4HTML](http://www.css4html.com.br) && [Designa](http://www.designa.com.br)
