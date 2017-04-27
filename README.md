@@ -6,19 +6,19 @@ May the force be with the front!
 ```
 $ git clone git@github.com:frontinvale/frontinvale.github.io.git
 $ cd froninvale.github.io
-$ gem install jekyll
+$ npm install && bower install
 ```
 
 ### Server
 
 ```
-$ jekyll serve
+$ gulp serve
 ```
 
 ### So, go to:
 
 ```
-http://localhost:4000
+http://localhost:9000
 ```
 
 ### Credits

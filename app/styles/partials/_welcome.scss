@@ -1,0 +1,49 @@
+section.welcome{
+  background-image: url(/images/bg-welcome.png);
+  background-attachment: fixed;
+  overflow: hidden;
+
+  p{
+    font-weight: 100;
+    color: #fff;
+    margin-top: 3px;
+  }
+
+  a{
+    display: block;
+    border-radius: 2px;
+    background-color: #cddc39;
+    max-width: 165px;
+    margin: 30px auto;
+    padding: 15px 0 14px;
+    font-weight: 500;
+    color: #212121;
+    &:visited{
+      color: #212121;
+    }
+  }
+
+  @media only screen and (max-width: 1280px){
+    .middle {
+      padding: 150px 20px 40px;
+      position: absolute;
+      left: 50%;
+      width: 100%;
+      max-width: 940px;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  @media only screen and (min-width: 850px){
+    .middle {
+      top: 75%;
+    }
+  }
+
+  @media only screen and (max-width: 850px){
+    .middle {
+      top: 72%;
+    }
+  }
+
+}

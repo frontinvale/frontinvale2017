@@ -1,0 +1,44 @@
+section.about{
+  background-image: url("http://www.babaimage.com/images/desktop-background-desert-destroyer-spaceship-star-wars.jpg");
+
+  .middle {
+    line-height: 1;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+
+    .right{
+      margin-left: 40px;
+      text-align: left;
+    }
+    img{
+      float: left;
+    }
+    h1{
+      margin-bottom: 16px;
+      font-weight: 400;
+    }
+    p{
+      font-size: 24px;
+      font-weight: 200;
+      color: #212121;
+    }
+  }
+
+
+  @media only screen and (max-width: 849px){
+    padding: 120px 20px 20px;
+  }
+
+  @media only screen and (min-width: 850px){
+    .middle{
+      position: absolute;
+      max-width: 800px;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
