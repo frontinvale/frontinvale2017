@@ -74,8 +74,8 @@ var frontinvale = function() {
       time = dt.getHours() + "" + dt.getMinutes();
     }
     time = parseInt(time);
-    for (var i = 0; i < speakers.length - 1; ++i) {      
-      if(time >= speakers[i].hour && time < speakers[i+1].hour){        
+    for (var i = 0; i < speakers.length - 1; ++i) {
+      if(time >= speakers[i].hour && time < speakers[i+1].hour){
         $('.palestra-atual img').attr('src', speakers[i].image_url);
         $('.palestra-atual h3').text(speakers[i].title);
         $('.palestra-atual p').text(speakers[i].name);
