@@ -1,0 +1,55 @@
+.contact{
+  background-color: #cddc39;
+
+  .middle{
+    div+div{
+      margin-left: 180px;
+    }
+    margin: 50px 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .contact{
+      text-align: left;
+      p{
+        font-size: 16px;
+        font-weight: 300;
+      }
+      h4{
+        font-size: 24px;
+        font-weight: 500;
+      }
+      .socials{
+        margin-top: 34px;
+        p{
+          font-size: 16px;
+          font-weight: 300;
+        }
+        img+img{
+          margin-top: 10px;
+          margin-left: 36px;
+        }
+      }
+    }
+
+  }
+
+  .host{
+    background-color: #212121;
+    img{
+      max-width: 100px;
+      height: auto;
+      padding: 70px 20px 110px;
+    }
+  }
+
+  footer{
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 12px;
+    background-color: #000;
+  }
+
+}
