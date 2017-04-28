@@ -4,6 +4,8 @@ const browserSync = require('browser-sync').create();
 const del = require('del');
 const wiredep = require('wiredep').stream;
 const runSequence = require('run-sequence');
+const fs = require('fs');
+const talkers = JSON.parse(fs.readFileSync('talkers.json'));
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
@@ -13,7 +15,7 @@ var dev = true;
 gulp.task('views', () => {
   return gulp.src('app/*.pug')
     .pipe($.plumber())
-    .pipe($.pug({pretty: true}))
+    .pipe($.pug({pretty: true, locals: talkers}))
     .pipe(gulp.dest('.tmp'))
     .pipe(reload({stream: true}));
 });
