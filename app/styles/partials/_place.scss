@@ -1,3 +1,14 @@
 .place{
   background-image: linear-gradient(to bottom, #5e0777, #fe5196);
+
+  h1{
+    margin-bottom: 36px;
+  }
+
+  #iframe-box{
+    iframe{
+      pointer-events: none;
+    }
+  }
+
 }

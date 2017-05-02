@@ -1,0 +1,48 @@
+.sponsors{
+  font-size: 24px;
+  font-weight: 300;
+  .diamond{
+    margin-top: 32px;
+    img{
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  .aligner{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .gold,.silver,.bronze{
+    margin-top: 24px;
+    img{
+      width: 160px;
+      height: 160px;
+    }
+  }
+
+}
+
+.support{
+
+  img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .aligner{
+    display: flex;
+    justify-content: space-around;
+
+    &.middle{
+      margin: 0 152px;
+    }
+
+    img{
+      margin: 36px 0;
+    }
+
+  }
+
+}

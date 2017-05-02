@@ -1,10 +1,14 @@
 section {
   position: relative;
+  text-align: center;
   min-height: 100%;
   background-color: #fff;
-  background-position: top center;
-  background-attachment: fixed;
-  background-attachment: scroll;
-  background-size: cover;
-  text-align: center;
+
+  &.welcome, &.about{
+    background-position: top center;
+    background-attachment: fixed;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
 }

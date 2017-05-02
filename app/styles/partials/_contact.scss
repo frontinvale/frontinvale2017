@@ -26,9 +26,11 @@
           font-size: 16px;
           font-weight: 300;
         }
-        img+img{
+        img{
           margin-top: 10px;
-          margin-left: 36px;
+        }
+        a+a{
+          margin-left: 24px;
         }
       }
     }

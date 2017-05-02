@@ -1,5 +1,8 @@
 section.about{
   background-image: url("http://www.babaimage.com/images/desktop-background-desert-destroyer-spaceship-star-wars.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   .middle {
     line-height: 1;
@@ -8,10 +11,6 @@ section.about{
     display: flex;
     align-items: center;
 
-    .right{
-      margin-left: 40px;
-      text-align: left;
-    }
     img{
       float: left;
     }
@@ -28,10 +27,20 @@ section.about{
 
 
   @media only screen and (max-width: 849px){
-    padding: 120px 20px 20px;
+    padding: 0 20px;
+    img{
+      display: none;
+    }
+    .middle{
+      padding: 32px;
+    }
   }
 
   @media only screen and (min-width: 850px){
+    .right{
+      margin-left: 40px;
+      text-align: left;
+    }
     .middle{
       position: absolute;
       max-width: 800px;
