@@ -1,4 +1,4 @@
-.talkers{
+.speakers{
   background-color: #000;
   color: #fff;
   display: flex;
@@ -6,7 +6,7 @@
   justify-content: center;
   flex-direction: column;
 
-  .talkers-title{
+  .speakers-title{
     margin: 60px 0 70px;
     align-self: flex-start;
     text-align: center;
@@ -25,9 +25,9 @@
     float: left;
   }
 
-  .talkers-box{
+  .speakers-box{
     max-width: 63%;
-    .talker{
+    .speaker{
       margin: 0 20px 60px;
       float: left;
       img{
@@ -39,9 +39,9 @@
   }
 
   &.lightning{
-    .talkers-box{
+    .speakers-box{
       max-width:46%;
-      .talker{
+      .speaker{
         margin: 0 13px 60px;
         float: left;
         img{

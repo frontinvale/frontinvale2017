@@ -1,62 +1,62 @@
 {
-  "talkers": [
+  "speakers": [
     {
       "name": "Maria",
-      "photo": "talker.png"
+      "photo": "speaker.png"
     },
     {
       "name": "Betânia",
-      "photo": "talker.png"
+      "photo": "speaker.png"
     },
     {
       "name": "Amélia",
-      "photo": "talker.png"
+      "photo": "speaker.png"
     },
     {
       "name": "Dário",
-      "photo": "talker.png"
+      "photo": "speaker.png"
     },
     {
       "name": "Faustino",
-      "photo": "talker.png"
+      "photo": "speaker.png"
     },
     {
       "name": "Antonieta",
-      "photo": "talker.png"
+      "photo": "speaker.png"
     }
   ],
-  "lightningTalkers": [
+  "lightningSpeakers": [
     {
       "name": "Maria",
-      "photo": "talker.png"
+      "photo": "speaker.png"
     },
     {
       "name": "Betânia",
-      "photo": "talker.png"
+      "photo": "speaker.png"
     },
     {
       "name": "Amélia",
-      "photo": "talker.png"
+      "photo": "speaker.png"
     },
     {
       "name": "Dário",
-      "photo": "talker.png"
+      "photo": "speaker.png"
     },
     {
       "name": "Faustino",
-      "photo": "talker.png"
+      "photo": "speaker.png"
     },
     {
       "name": "Antonieta",
-      "photo": "talker.png"
+      "photo": "speaker.png"
     },
     {
       "name": "Antonieta",
-      "photo": "talker.png"
+      "photo": "speaker.png"
     },
     {
       "name": "Antonieta",
-      "photo": "talker.png"
+      "photo": "speaker.png"
     }
   ]
 }
