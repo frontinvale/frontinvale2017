@@ -7,19 +7,20 @@ var frontinvale = function() {
 
   removeLoading = function() {
     document.body.classList.remove('loading');
-    console.log('teste');
   },
 
   mapScrollOnClick = function(){
     var box = document.getElementById('iframe-box');
-    box.addEventListener('click', function() {
-      var iframe = document.getElementById('iframe');
-      iframe.style.pointerEvents = 'auto';
-    }, false);
-    box.addEventListener('mouseleave', function() {
-      var iframe = document.getElementById('iframe');
-      iframe.style.pointerEvents = 'none';
-    }, false);
+    if (box) {
+      box.addEventListener('click', function() {
+        var iframe = document.getElementById('iframe');
+        iframe.style.pointerEvents = 'auto';
+      }, false);
+      box.addEventListener('mouseleave', function() {
+        var iframe = document.getElementById('iframe');
+        iframe.style.pointerEvents = 'none';
+      }, false);
+    }
   };
 
   return {

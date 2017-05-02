@@ -10,3 +10,9 @@ h1{
     color: #fff;
   }
 }
+
+@media only screen and (max-width: 849px){
+  h1{
+    font-size: 30px;
+  }
+}

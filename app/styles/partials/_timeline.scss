@@ -3,7 +3,7 @@
   &:before {
     content: '';
     position: absolute;
-    top: 16%;
+    top: 233px;
     left:50%;
     bottom: 5%;
     transform:translateX(-50%);
@@ -41,7 +41,7 @@
           top:50%;
           transform:translateY(-50%);
           right:-73px;
-          z-index:1000;
+          z-index:2;
         }
       }
       .body {
@@ -66,4 +66,32 @@
       }
     }
   }
+
+  @media only screen and (max-width: 849px){
+    padding: 40px 0;
+    .entries{
+      width: 100%;
+      max-width: 100%;
+      .entry{
+        width: calc(50% - 30px);
+        padding: 40px 10px;
+        .title{
+          &:before{
+            right: -33px;
+          }
+        }
+        &:nth-child(2n) {
+          .title{
+            &:before{
+              left: -23px;
+            }
+          }
+        }
+      }
+    }
+    &:before{
+      top: 217px;
+    }
+  }
+
 }
