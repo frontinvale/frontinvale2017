@@ -27,16 +27,16 @@ section.welcome{
     }
   }
 
-  @media only screen and (max-width: 1280px){
-    .middle {
-      padding: 150px 20px 40px;
-      position: fixed;
-      left: 50%;
-      width: 100%;
-      max-width: 940px;
-      transform: translate(-50%, -50%);
-    }
+
+  .middle {
+    padding: 150px 20px 40px;
+    position: fixed;
+    left: 50%;
+    width: 100%;
+    max-width: 940px;
+    transform: translate(-50%, -50%);
   }
+
 
   @media only screen and (min-width: 850px){
     .middle {
