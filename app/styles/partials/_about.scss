@@ -1,53 +1,48 @@
 section.about{
-  background-image: url("http://www.babaimage.com/images/desktop-background-desert-destroyer-spaceship-star-wars.jpg");
+  background-image: url("/images/bg-about.png");
   display: flex;
   align-items: center;
   justify-content: center;
 
-  .middle {
-    line-height: 1;
-    background: rgba(255, 255, 255, 0.95);
-    padding: 40px;
+  .about-box {
     display: flex;
     align-items: center;
-
+    padding: 80px 60px;
+    background: rgba(255, 255, 255, 0.90);
+    width: 840px;
+    max-width: 100%;
+    margin: 16px;
     img{
-      float: left;
+      max-width: 220px;
     }
-    h1{
-      margin-bottom: 16px;
-      font-weight: 400;
-    }
-    p{
-      font-size: 24px;
-      font-weight: 200;
-      color: #212121;
+    .text{
+      text-align: left;
+      h1{
+        font-weight: 400;
+        margin-bottom: 16px;
+      }
+      p{
+        font-size: 24px;
+        font-weight: 300;
+        color: #212121;
+      }
     }
   }
 
 
-  @media only screen and (max-width: 849px){
-    padding: 0 20px;
+  @media only screen and (max-width: 767px){
     img{
       display: none;
     }
-    .middle{
-      padding: 32px;
+    .about-box{
+      padding: 24px 12px;
     }
   }
 
-  @media only screen and (min-width: 850px){
-    .right{
-      margin-left: 40px;
-      text-align: left;
-    }
-    .middle{
-      position: absolute;
-      max-width: 800px;
-      top: 50%;
-      left: 50%;
-      width: 100%;
-      transform: translate(-50%, -50%);
+  @media only screen and (min-width: 768px){
+    .text{
+      padding: 0 0 0 60px;
     }
   }
+
 }

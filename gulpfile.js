@@ -6,6 +6,7 @@ const wiredep = require('wiredep').stream;
 const runSequence = require('run-sequence');
 const fs = require('fs');
 const speakers = JSON.parse(fs.readFileSync('speakers.json'));
+const ghPages = require('gulp-gh-pages');
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
@@ -189,4 +190,9 @@ gulp.task('default', () => {
     dev = false;
     runSequence(['clean', 'wiredep'], 'build', resolve);
   });
+});
+
+gulp.task('deploy', ['default'], () => {
+  return gulp.src('dist/**/*')
+    .pipe($.ghPages({branch:"master"}));
 });

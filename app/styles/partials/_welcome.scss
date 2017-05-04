@@ -27,24 +27,22 @@ section.welcome{
     }
   }
 
-
   .middle {
     padding: 150px 20px 40px;
     position: fixed;
     left: 50%;
     width: 100%;
-    max-width: 940px;
+    max-width: 600px;
     transform: translate(-50%, -50%);
   }
 
-
-  @media only screen and (min-width: 850px){
+  @media only screen and (min-width: 768px){
     .middle {
       top: 75%;
     }
   }
 
-  @media only screen and (max-width: 850px){
+  @media only screen and (max-width: 767px){
     .middle {
       top: 72%;
     }
