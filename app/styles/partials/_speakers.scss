@@ -2,35 +2,29 @@
 
   background-color: #000;
   color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-
-  .speakers-title{
-    margin: 60px 0 70px;
-    align-self: flex-start;
-    text-align: center;
-    width: 100%;
-  }
-
-  .star-left{
-    margin-bottom: 200px;
-  }
-
-  .star-right{
-    margin-top: 78px;
-  }
-
-  .star-left, .star-right{
-    float: left;
-  }
 
   .speakers-box{
-    max-width: 63%;
+    display: flex;
+    justify-content: center;
+
+    .left-star{
+      margin: 60px 40px 0;
+    }
+
+    .center-speakers{
+      width: 600px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .right-star{
+      margin: 0 40px;
+      display: flex;
+      align-items: flex-end;
+    }
+
     .speaker{
-      margin: 0 20px 60px;
-      float: left;
+      margin: 60px 20px 0;
       img{
         max-width: 160px;
         height: auto;
@@ -41,10 +35,8 @@
 
   &.lightning{
     .speakers-box{
-      max-width:46%;
       .speaker{
-        margin: 0 13px 60px;
-        float: left;
+        margin: 60px 13px 0;
         img{
           max-width: 120px;
           height: auto;
@@ -55,15 +47,6 @@
   }
 
   @media only screen and (max-width: 849px){
-    .star{
-      display: none;
-    }
-    .speakers-box .speaker {
-      margin: 0 20px 40px;
-    }
-    &.lightning .speakers-box .speaker{
-      margin: 0 13px 40px;
-    }
   }
 
 }
