@@ -1,6 +1,6 @@
 section.welcome{
-  background-image: url(/images/bg-welcome.png);
-  background-attachment: fixed;
+  background: url(/images/bg-welcome.png) top center / cover fixed;
+  max-height: 100%;
   overflow: hidden;
 
   img.front-in-vale{
@@ -43,8 +43,10 @@ section.welcome{
   }
 
   @media only screen and (max-width: 767px){
+    background: url(/images/bg-welcome-mobile.png) top center / cover;
     .middle {
-      top: 72%;
+      top: 70%;
+      position: absolute;
     }
   }
 
