@@ -6,6 +6,7 @@
   .speakers-box{
     display: flex;
     justify-content: center;
+    margin-top: 32px;
 
     .left-star{
       margin: 60px 40px 0;
@@ -15,6 +16,7 @@
       width: 600px;
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
     }
 
     .right-star{
@@ -46,7 +48,13 @@
     }
   }
 
-  @media only screen and (max-width: 849px){
+  @media only screen and (max-width: 850px){
+    .speakers-box{
+      padding-bottom: 32px;
+      .left-star, .right-star{
+        display: none !important;
+      }
+    }
   }
 
 }

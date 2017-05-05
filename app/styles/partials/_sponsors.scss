@@ -1,8 +1,9 @@
 .sponsors{
   font-size: 24px;
   font-weight: 300;
+  background-color: #fff;
   .diamond{
-    margin-top: 32px;
+    margin-top: 56px;
     img{
       width: 200px;
       height: 200px;
@@ -22,27 +23,38 @@
     }
   }
 
+  @media only screen and (max-width: 767px){
+    .aligner{
+      flex-direction: column;
+    }
+  }
+
 }
 
 .support{
-
-  img{
-    width: 100px;
-    height: 100px;
-  }
+  background-color: #fff;
 
   .aligner{
+    margin-top: 40px;
     display: flex;
-    justify-content: space-around;
-
-    &.middle{
-      margin: 0 152px;
+    flex-wrap: wrap;
+    justify-content: center;
+    .support-item{
+      width: calc(100% * (1/4) - 10px - 1px);
+      margin: 24px 0;
+      img{
+        width: 100px;
+        height: 100px;
+      }
     }
+  }
 
-    img{
-      margin: 36px 0;
+  @media only screen and (max-width: 767px){
+    .aligner{
+      .support-item{
+        width: calc(100% * (1/2) - 10px - 1px);
+      }
     }
-
   }
 
 }

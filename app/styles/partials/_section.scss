@@ -2,13 +2,19 @@ section {
   position: relative;
   text-align: center;
   min-height: 100%;
-  background-color: #fff;
 
-  &.welcome, &.about{
+  @media only screen and (min-height: 800px){
+    &:not(.welcome){
+      min-height: 800px;
+    }
+  }
+
+  &.welcome{
     background-position: top center;
     background-attachment: fixed;
     background-attachment: scroll;
     background-size: cover;
+    max-height: 100%;
   }
 
 }

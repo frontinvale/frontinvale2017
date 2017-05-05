@@ -7,13 +7,14 @@ var frontinvale = function() {
   },
 
   removeLoading = function() {
-    document.body.classList.remove('loading');
+    setTimeout(function () {
+      document.body.classList.remove('loading');
+    }, 2000);
   },
 
   closeNavOnClick = function() {
     var nav = document.getElementsByTagName('nav')[0];
     var ul = nav.getElementsByTagName('ul')[0];
-    console.log(ul);
     ul.addEventListener('click', function (e) {
       document.getElementById('menu-control').checked = false;
     });
