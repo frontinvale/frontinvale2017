@@ -2,6 +2,7 @@ section {
   position: relative;
   text-align: center;
   min-height: 100%;
+  transition: all 0.5s ease-in-out;
 
   @media only screen and (min-height: 800px){
     &:not(.welcome){

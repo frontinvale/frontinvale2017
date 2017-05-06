@@ -2,6 +2,8 @@ var frontinvale = function() {
 
   var init = function() {
     removeLoading();
+    resizeSection();
+    watchResize();
     mapScrollOnClick();
     closeNavOnClick();
   },
@@ -10,6 +12,24 @@ var frontinvale = function() {
     setTimeout(function () {
       document.body.classList.remove('loading');
     }, 2000);
+  },
+
+  resizeSection = function() {
+    var sec = document.getElementsByTagName('section');
+    for (var i = 0; i < sec.length; i++) {
+      sec[i].style.minHeight = window.innerHeight + 'px';
+    };
+  },
+
+  watchResize = function() {
+    var timeOut = null;
+    window.onresize = function(){
+      if (timeOut != null)
+        clearTimeout(timeOut);
+      timeOut = setTimeout(function(){
+        resizeSection();
+      }, 100);
+    };
   },
 
   closeNavOnClick = function() {

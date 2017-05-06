@@ -1,6 +1,5 @@
 section.welcome{
   background: url(/images/bg-welcome.png) top center / cover fixed;
-  max-height: 100%;
   overflow: hidden;
 
   img.front-in-vale{
@@ -10,7 +9,7 @@ section.welcome{
   p{
     font-weight: 100;
     color: #fff;
-    margin-top: 3px;
+    margin-top: 12px;
   }
 
   a{
@@ -45,7 +44,7 @@ section.welcome{
   @media only screen and (max-width: 767px){
     background: url(/images/bg-welcome-mobile.png) top center / cover;
     .middle {
-      top: 70%;
+      top: 67%;
       position: absolute;
     }
   }
