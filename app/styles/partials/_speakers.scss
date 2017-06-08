@@ -27,10 +27,18 @@
 
     .speaker{
       margin: 60px 20px 0;
+      position: relative;
       img{
         max-width: 160px;
         height: auto;
         display: block;
+      }
+      .speaker-name{
+        margin-top: 10px;
+        color: #cddc39;
+      }
+      .speaker-info{
+        margin-top: 3px;
       }
     }
   }

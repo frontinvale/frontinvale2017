@@ -15,9 +15,9 @@ var frontinvale = function() {
   },
 
   resizeSection = function() {
-    var sec = document.getElementsByTagName('section');
+    var sec = document.querySelectorAll('section:not(.welcome)');
     for (var i = 0; i < sec.length; i++) {
-      sec[i].style.minHeight = window.innerHeight + 'px';
+      sec[i].style.minHeight = (window.innerHeight+0) + 'px';
     };
   },
 

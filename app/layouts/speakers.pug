@@ -1,19 +1,27 @@
 section#speakers.speakers
   h1.title PALESTRANTES
-  div.speakers-box
-    div.left-star
+  .speakers-box
+    .left-star
       img.star(src='images/estrelas-direita.svg')
-    div.center-speakers
+    .center-speakers
       each speaker in speakers
-        div.speaker 
-          img(src='images/'+speaker.photo)
-    div.right-star
+        .speaker 
+          img(src='images/'+speaker.photo, alt=speaker.name)
+          .speaker-name
+            = speaker.name
+          .speaker-info
+            = speaker.info
+    .right-star
       img.star(src='images/estrelas-esquerda.svg')
 section.speakers.lightning
   h1.title LIGHTNING TALKS
-  div.speakers-box
+  .speakers-box
     .center-speakers
       each speaker in lightningSpeakers
-        div.speaker 
-          img(src='images/'+speaker.photo)
+        .speaker 
+          img(src='images/'+speaker.photo, alt=speaker.name)
+          .speaker-name
+            = speaker.name
+          .speaker-info
+            = speaker.info
   

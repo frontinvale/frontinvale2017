@@ -1,62 +1,76 @@
 {
   "speakers": [
     {
-      "name": "Maria",
-      "photo": "speaker.png"
+      "name": "William Grasel",
+      "photo": "william.jpg",
+      "info": "Software Engineer"
     },
     {
-      "name": "Betânia",
-      "photo": "speaker.png"
+      "name": "A definir",
+      "photo": "speaker.png",
+      "info": " "
     },
     {
-      "name": "Amélia",
-      "photo": "speaker.png"
+      "name": "A definir",
+      "photo": "speaker.png",
+      "info": " "
     },
     {
-      "name": "Dário",
-      "photo": "speaker.png"
+      "name": "A definir",
+      "photo": "speaker.png",
+      "info": " "
     },
     {
-      "name": "Faustino",
-      "photo": "speaker.png"
+      "name": "A definir",
+      "photo": "speaker.png",
+      "info": " "
     },
     {
-      "name": "Antonieta",
-      "photo": "speaker.png"
+      "name": "A definir",
+      "photo": "speaker.png",
+      "info": " "
     }
   ],
   "lightningSpeakers": [
     {
-      "name": "Maria",
-      "photo": "speaker.png"
+      "name": "A definir",
+      "photo": "speaker.png",
+      "info": " "
     },
     {
-      "name": "Betânia",
-      "photo": "speaker.png"
+      "name": "A definir",
+      "photo": "speaker.png",
+      "info": " "
     },
     {
-      "name": "Amélia",
-      "photo": "speaker.png"
+      "name": "A definir",
+      "photo": "speaker.png",
+      "info": " "
     },
     {
-      "name": "Dário",
-      "photo": "speaker.png"
+      "name": "A definir",
+      "photo": "speaker.png",
+      "info": " "
     },
     {
-      "name": "Faustino",
-      "photo": "speaker.png"
+      "name": "A definir",
+      "photo": "speaker.png",
+      "info": " "
     },
     {
-      "name": "Antonieta",
-      "photo": "speaker.png"
+      "name": "A definir",
+      "photo": "speaker.png",
+      "info": " "
     },
     {
-      "name": "Antonieta",
-      "photo": "speaker.png"
+      "name": "A definir",
+      "photo": "speaker.png",
+      "info": " "
     },
     {
-      "name": "Antonieta",
-      "photo": "speaker.png"
+      "name": "A definir",
+      "photo": "speaker.png",
+      "info": " "
     }
   ]
 }
