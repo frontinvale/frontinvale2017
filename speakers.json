@@ -2,74 +2,74 @@
   "speakers": [
     {
       "name": "William Grasel",
-      "photo": "william.jpg",
+      "photo": "speakers/william.jpg",
       "info": "Software Engineer"
     },
     {
       "name": "Loiane Groner",
-      "photo": "loiane.jpg",
+      "photo": "speakers/loiane.jpg",
       "info": "FullStack Developer"
     },
     {
       "name": "Maurício Silva",
-      "photo": "maujor.jpg",
+      "photo": "speakers/maujor.jpg",
       "info": "Engenheiro, Professor e Autor"
     },
     {
       "name": "Fernanda Bernardo",
-      "photo": "fernanda.jpg",
+      "photo": "speakers/fernanda.jpg",
       "info": "Frontend Developer"
     },
     {
       "name": "Em breve",
-      "photo": "speaker.png",
+      "photo": "speakers/speaker.png",
       "info": " "
     },
     {
       "name": "Em breve",
-      "photo": "speaker.png",
+      "photo": "speakers/speaker.png",
       "info": " "
     }
   ],
   "lightningSpeakers": [
     {
       "name": "Em breve",
-      "photo": "speaker.png",
+      "photo": "speakers/speaker.png",
       "info": " "
     },
     {
       "name": "Em breve",
-      "photo": "speaker.png",
+      "photo": "speakers/speaker.png",
       "info": " "
     },
     {
       "name": "Em breve",
-      "photo": "speaker.png",
+      "photo": "speakers/speaker.png",
       "info": " "
     },
     {
       "name": "Em breve",
-      "photo": "speaker.png",
+      "photo": "speakers/speaker.png",
       "info": " "
     },
     {
       "name": "Em breve",
-      "photo": "speaker.png",
+      "photo": "speakers/speaker.png",
       "info": " "
     },
     {
       "name": "Em breve",
-      "photo": "speaker.png",
+      "photo": "speakers/speaker.png",
       "info": " "
     },
     {
       "name": "Em breve",
-      "photo": "speaker.png",
+      "photo": "speakers/speaker.png",
       "info": " "
     },
     {
       "name": "Em breve",
-      "photo": "speaker.png",
+      "photo": "speakers/speaker.png",
       "info": " "
     }
   ]
