@@ -1,5 +1,7 @@
 .speakers{
 
+  background-image: url("/images/bg-speakers.jpg");
+  background-size: cover;
   background-color: #000;
   color: #fff;
 
@@ -45,6 +47,7 @@
   }
 
   &.lightning{
+    background-image: none;
     .speakers-box{
       .speaker{
         margin: 60px 13px 0;
