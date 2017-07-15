@@ -72,5 +72,17 @@
       "photo": "speakers/lightning-talker.jpg",
       "info": " "
     }
+  ],
+  "mcs": [
+    {
+      "name": "Alda Rocha",
+      "photo": "speakers/alda-rocha.jpg",
+      "info": " "
+    },
+    {
+      "name": "Matheus Marsiglio",
+      "photo": "speakers/matheus-marsiglio.jpg",
+      "info": " "
+    }
   ]
 }

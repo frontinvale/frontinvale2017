@@ -84,6 +84,31 @@
     }
   }
 
+  &.mc{
+    background-image: url("/images/bg-mc.jpg");
+    color: #3d2a01;
+    .center-speakers{
+      width: 800px;
+    }
+    .description{
+      margin: 20px;
+      color: #3d2a01;      
+    }
+    .speakers-box{
+      .speaker{
+        margin: 60px 13px 0;
+        img{
+          max-width: 300px;
+          height: auto;
+          display: block;
+        }
+      }
+      .speaker-name{
+        color: #3d2a01;
+      }
+    }
+  }
+
   @media only screen and (max-width: 850px){
     .speakers-box{
       padding-bottom: 32px;
