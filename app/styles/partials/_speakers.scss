@@ -5,6 +5,10 @@
   background-color: #000;
   color: #fff;
 
+  .title {
+    color: #cddc39;
+  }
+
   .speakers-box{
     display: flex;
     justify-content: center;
@@ -38,6 +42,7 @@
       .speaker-name{
         margin-top: 10px;
         color: #cddc39;
+        font-weight: 800;
       }
       .speaker-info{
         margin-top: 3px;
@@ -49,6 +54,11 @@
   &.lightning{
     background-image: url("/images/bg-lightning.jpg");
     color: #29a3b0;
+    
+    .title {
+      color: #29a3b0;
+    }
+
     .description{
       margin: 20px;
       color: #b6f1f2;
@@ -72,6 +82,7 @@
         }
       }
     }
+
     .speakers-box{
       .speaker{
         margin: 60px 13px 0;
@@ -90,13 +101,20 @@
   &.mc{
     background-image: url("/images/bg-mc.jpg");
     color: #3d2a01;
+
+    .title {
+      color: #3d2a01;
+    }
+
+    .description{
+      margin: 20px;
+    }
+
+    
     .center-speakers{
       width: 800px;
     }
-    .description{
-      margin: 20px;
-      color: #3d2a01;      
-    }
+        
     .speakers-box{
       .speaker{
         margin: 60px 13px 0;
@@ -106,6 +124,7 @@
           display: block;
         }
       }
+      
       .speaker-name{
         color: #3d2a01;
       }
