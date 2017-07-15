@@ -13,8 +13,14 @@ section#speakers.speakers
             = speaker.info
     .right-star
       img.star(src='images/estrelas-esquerda.svg')
+
 section.speakers.lightning
   h1.title LIGHTNING TALKS
+  div.description
+    p São palestras rápidas de 10 minutos onde você tem a chance de mostrar sua força! 
+    p Tá afim de palestrar? Então, submeta agora mesmo sua talk através do nosso formulário: 
+    a(href='http://bit.ly/frontinvalec4p-2017', target='_blank') ENVIAR
+
   .speakers-box
     .center-speakers
       each speaker in lightningSpeakers
@@ -24,4 +30,3 @@ section.speakers.lightning
             = speaker.name
           .speaker-info
             = speaker.info
-  

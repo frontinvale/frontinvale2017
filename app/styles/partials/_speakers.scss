@@ -47,7 +47,31 @@
   }
 
   &.lightning{
-    background-image: none;
+    background-image: url("/images/bg-lightning.jpg");
+    color: #29a3b0;
+    .description{
+      margin: 20px;
+      color: #b6f1f2;
+      a{
+        display: block;
+        border: 2px #29a3b0 solid;
+        border-radius: 2px;
+        max-width: 165px;
+        margin: 30px auto;
+        padding: 15px 0 14px;
+        font-weight: 500;
+        cursor: pointer;
+        color: #29a3b0;
+        &:visited{
+          color: #29a3b0;
+        }
+        &:hover{
+          background-color: darken(#cddc39, 10%);
+          border: 2px darken(#cddc39, 10%) solid;
+          color: #15052a;
+        }
+      }
+    }
     .speakers-box{
       .speaker{
         margin: 60px 13px 0;
