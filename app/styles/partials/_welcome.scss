@@ -24,6 +24,9 @@ section.welcome{
     &:visited{
       color: #212121;
     }
+    &:hover{
+      background-color: darken(#cddc39, 10%);
+    }
   }
 
   .middle {
