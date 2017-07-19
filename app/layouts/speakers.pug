@@ -30,18 +30,3 @@ section.speakers.lightning
             = speaker.name
           .speaker-info
             = speaker.info
-
-section.speakers.mc
-  h1.title APRESENTAÇÃO
-  div.description
-    p Este ano o FronInVale será apresentado por dois grandes nomes da comunidade front-end 
-
-  .speakers-box
-    .center-speakers
-      each speaker in mcs
-        .speaker 
-          img(src='images/'+speaker.photo, alt=speaker.name)
-          .speaker-name
-            = speaker.name
-          .speaker-info
-            = speaker.info
