@@ -68,7 +68,7 @@
     }
 
     .description{
-      margin: 24px;
+      margin: 24px 24px 0;
       font-weight: 300;
       a{
         display: block;
@@ -111,6 +111,11 @@
           color: #000;
         }
       }
+    }
+
+    .bb8{
+      position: relative;
+      margin-top: 48px;
     }
   }
 
