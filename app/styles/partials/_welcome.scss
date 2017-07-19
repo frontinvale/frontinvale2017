@@ -1,6 +1,7 @@
 section.welcome{
   background: url(/images/bg-welcome.png) top center / cover fixed;
   overflow: hidden;
+  min-height: 100%;
 
   img.front-in-vale{
     animation: front-in-vale 10s ease-out infinite;

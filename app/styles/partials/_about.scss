@@ -1,9 +1,10 @@
 section.about{
-  background-image: url("/images/bg-about.png");
+  background-image: url("/images/bg-about.jpg");
   background-repeat: round;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 200px 0;
 
   .about-box {
     display: flex;
@@ -12,7 +13,6 @@ section.about{
     background: rgba(255, 255, 255, 0.90);
     width: 840px;
     max-width: 100%;
-    margin: 16px;
     img{
       max-width: 220px;
     }
@@ -32,6 +32,7 @@ section.about{
 
 
   @media only screen and (max-width: 767px){
+    padding: 80px 24px;
     img{
       display: none;
     }

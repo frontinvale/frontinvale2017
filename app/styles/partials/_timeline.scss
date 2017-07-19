@@ -1,11 +1,11 @@
 .timeline {
-  padding: 60px 0;
+  padding-top: 24px;
   &:before {
     content: '';
     position: absolute;
-    top: 233px;
+    top: 200px;
     left:50%;
-    bottom: 5%;
+    bottom: 5.5%;
     transform:translateX(-50%);
     width:2px;
     background-color:#fff;
@@ -68,7 +68,6 @@
   }
 
   @media only screen and (max-width: 849px){
-    padding: 40px 0;
     .entries{
       width: 100%;
       max-width: 100%;
@@ -90,7 +89,8 @@
       }
     }
     &:before{
-      top: 217px;
+      top: 188px;
+      bottom: 5.2%;
     }
   }
 

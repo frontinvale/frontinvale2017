@@ -1,18 +1,14 @@
 .speakers{
-
-  background-image: url("/images/bg-speakers.jpg");
-  background-size: cover;
   background-color: #000;
   color: #fff;
 
   .title {
-    color: #cddc39;
+    color: #fff;
   }
 
   .speakers-box{
     display: flex;
     justify-content: center;
-    margin-top: 32px;
 
     .left-star{
       margin: 60px 40px 0;
@@ -52,33 +48,46 @@
   }
 
   &.lightning{
-    background-image: url("/images/bg-lightning.jpg");
-    color: #29a3b0;
-    
-    .title {
-      color: #29a3b0;
+    color: #fff;
+
+    .title, .description{
+      z-index: 2;
+      position: relative;
+    }
+    &:before{
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      content: "";
+      position: absolute;
+      -webkit-transform: rotate(-180deg);
+      transform: rotate(-180deg);
+      background-image: linear-gradient(131deg, #3023ae, #c96dd8);
     }
 
     .description{
-      margin: 20px;
-      color: #b6f1f2;
+      margin: 24px;
+      font-weight: 300;
       a{
         display: block;
-        border: 2px #29a3b0 solid;
         border-radius: 2px;
         max-width: 165px;
-        margin: 30px auto;
+        margin: 24px auto;
         padding: 15px 0 14px;
-        font-weight: 500;
         cursor: pointer;
-        color: #29a3b0;
+        color: #212121;
+        font-weight: 500;
+        border-radius: 2px;
+        background-color: #ffffff;
         &:visited{
-          color: #29a3b0;
+          color: #212121;
         }
         &:hover{
-          background-color: darken(#cddc39, 10%);
-          border: 2px darken(#cddc39, 10%) solid;
-          color: #15052a;
+          background-color: #000;
+          color: #fff;
+
         }
       }
     }
@@ -92,48 +101,21 @@
           display: block;
         }
         .speaker-name{
-          color: #29a3b0;
+          margin-top: 10px;
+          color: #fff;
+          font-weight: 300;
         }
-      }
-    }
-  }
-
-  &.mc{
-    background-image: url("/images/bg-mc.jpg");
-    color: #3d2a01;
-
-    .title {
-      color: #3d2a01;
-    }
-
-    .description{
-      margin: 20px;
-    }
-
-    
-    .center-speakers{
-      width: 800px;
-    }
-        
-    .speakers-box{
-      .speaker{
-        margin: 60px 13px 0;
-        img{
-          max-width: 300px;
-          height: auto;
-          display: block;
+        .speaker-info{
+          margin-top: 3px;
+          max-width: 160px;
+          color: #000;
         }
-      }
-      
-      .speaker-name{
-        color: #3d2a01;
       }
     }
   }
 
   @media only screen and (max-width: 850px){
     .speakers-box{
-      padding-bottom: 32px;
       .left-star, .right-star{
         display: none !important;
       }
