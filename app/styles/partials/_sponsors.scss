@@ -4,30 +4,35 @@
   background-color: #fff;
 
   .aligner{
+    margin: 24px 0 80px;
     display: flex;
     justify-content: space-around;
 
-    .gold,.silver,.bronze{
+    .sponsor-item{
       margin-top: 24px;
       .img-aligner{
-        min-height: 180px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         img{
-          max-width: 300px;
+          max-width: 312px;
         }
       }
     }
     &.support{
-      margin: 40px 0;
+      margin: 40px 0 0;
       flex-wrap: wrap;
       justify-content: space-around;
       .support-item{
         margin: 24px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &:last-child{
+          margin: 24px 0 0;
+        }
         img{
-          width: 130px;
-          height: 130px;
+          max-width: 156px;
         }
       }
     }
