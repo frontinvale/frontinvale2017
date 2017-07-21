@@ -31,3 +31,17 @@ section.speakers.lightning
           .speaker-info
             = speaker.info
   img.bb8(src='images/bb-8.svg')
+    
+section.speakers.presenters
+  h1.title APRESENTAÇÃO
+  div.description
+    p Este ano o FronInVale será apresentado por dois grandes nomes da comunidade front-end!
+  .speakers-box
+    .center-speakers
+      each presenter in presenters
+        .speaker 
+          img(src='images/'+presenter.photo, alt=presenter.name)
+          .speaker-name
+            = presenter.name
+          .speaker-info
+            = presenter.info

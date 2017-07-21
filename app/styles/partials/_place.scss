@@ -1,8 +1,9 @@
-.place{
+section.place{
   background-image: url("/images/bg-place.svg"), linear-gradient(to bottom, #5e0777, #fe5196);
   background-repeat: no-repeat;
   background-position: center bottom;
   color: #fff;
+  padding: 176px 0;
 
   .place-title{
     top: 0px;
