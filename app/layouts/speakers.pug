@@ -5,7 +5,7 @@ section#speakers.speakers
       img.star(src='images/estrelas-direita.svg')
     .center-speakers
       each speaker in speakers
-        .speaker 
+        .speaker
           img(src='images/'+speaker.photo, alt=speaker.name)
           .speaker-name
             = speaker.name
@@ -17,21 +17,19 @@ section#speakers.speakers
 section.speakers.lightning
   h1.title LIGHTNING TALKS
   div.description
-    p São palestras rápidas de 10 minutos onde você tem a chance de mostrar sua força! 
-    p Tá afim de palestrar? Então, submeta agora mesmo sua lightning talk através do nosso formulário: 
-    a(href='http://bit.ly/frontinvalec4p-2017', target='_blank') SUBMETER
+    p São palestras rápidas de 10 minutos onde você tem a chance de mostrar sua força!
 
   .speakers-box
     .center-speakers
       each speaker in lightningSpeakers
-        .speaker 
+        .speaker
           img(src='images/'+speaker.photo, alt=speaker.name)
           .speaker-name
             = speaker.name
           .speaker-info
             = speaker.info
   img.bb8(src='images/bb-8.svg')
-    
+
 section.speakers.presenters
   h1.title APRESENTAÇÃO
   div.description
@@ -39,7 +37,7 @@ section.speakers.presenters
   .speakers-box
     .center-speakers
       each presenter in presenters
-        .speaker 
+        .speaker
           img(src='images/'+presenter.photo, alt=presenter.name)
           .speaker-name
             = presenter.name
