@@ -7,9 +7,14 @@
     margin: 24px 0 80px;
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 50px auto;
 
     .sponsor-item{
-      margin-top: 24px;
+      width: calc(50% - 40px);
+      margin: 40px 20px;
       .img-aligner{
         display: flex;
         flex-direction: column;
@@ -20,7 +25,7 @@
       }
     }
     &.support{
-      margin: 40px 0 0;
+      margin: 40px auto 0;
       flex-wrap: wrap;
       justify-content: space-around;
       .support-item{
@@ -38,6 +43,16 @@
     }
   }
 
+
+  @media only screen and (max-width: 960px){
+    .aligner{
+      flex-direction: column;
+      .sponsor-item{
+        width: 100%;
+        margin: 40px 0;
+      }
+    }
+  }
 
   @media only screen and (max-width: 767px){
     .aligner{
