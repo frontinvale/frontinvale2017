@@ -10,7 +10,7 @@ var countdown = function() {
 
   start = function(time) {
     var allSeconds = time * 60;
-    elementTimer.classList.add("started");
+    elementTimer.classList.add('started');
 
     intervalTick = setInterval(function() {
       allSeconds--;
@@ -32,21 +32,26 @@ var countdown = function() {
 
   stop = function() {
     clearInterval(intervalTick);
-    elementTimer.className = "";
+    elementTimer.classList.add('finished');
+  },
+
+  clear = function() {
+    stop();
+    elementTimer.classList.value = [];
   },
 
   warning = function() {
-    elementTimer.classList.add("warning");
+    elementTimer.classList.add('warning');
   },
 
   shake = function() {
-    elementTimer.classList.add("shake");
+    elementTimer.classList.add('shake');
   };
 
   return {
     init: init,
     start: start,
-    stop: stop
+    clear: clear
   };
 }();
 
