@@ -9,6 +9,8 @@ var countdown = function() {
   },
 
   start = function(time) {
+    clear();
+
     var allSeconds = time * 60;
     elementTimer.classList.add('started');
 
