@@ -1,8 +1,4 @@
 @keyframes shake {
-  10% {
-    transform: scale(0.95);
-  }
-
   10%, 90% {
     transform: translate(0, -2px) rotate(0.5deg);
   }
@@ -20,7 +16,21 @@
   }
 
   95% {
-    transform: scale(1.05);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  10% {
+    transform: scale(0.95);
+  }
+
+  95% {
+    transform: scale(1.2);
     opacity: 0;
   }
 
@@ -84,8 +94,10 @@ html, body {
   }
 
   &.finished .countdown {
+    transform-origin: center center;
     animation-duration: 0.5s;
-    animation-iteration-count: 30;
+    animation-iteration-count: 5;
+    animation-name: pulse;
   }
 }
 
