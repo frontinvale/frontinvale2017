@@ -194,5 +194,5 @@ gulp.task('default', () => {
 
 gulp.task('deploy', ['default'], () => {
   return gulp.src('dist/**/*')
-    .pipe($.ghPages({branch:"master"}));
+    .pipe($.ghPages({branch:"gh-pages"}));
 });
